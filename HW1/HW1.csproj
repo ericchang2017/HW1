@@ -242,6 +242,9 @@
     <Compile Include="Models\客戶資料.Partial.cs">
       <DependentUpon>EFGeneratePartialClass.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\客戶資料統計表.cs">
+      <DependentUpon>Customers.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\客戶銀行資訊.cs">
       <DependentUpon>Customers.tt</DependentUpon>
     </Compile>
